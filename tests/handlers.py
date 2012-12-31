@@ -1,5 +1,5 @@
-from serene.handlers import ListOrCreateHandler, InstanceHandler
-from serene.tests.models import ProjectDummy, StoryDummy, ScrumStoryDummy
+from appengineserene.handlers import ListOrCreateHandler, InstanceHandler
+from appengineserene.tests.models import ProjectDummy, StoryDummy, ScrumStoryDummy
 
 
 class ProjectListOrCreateHandler(ListOrCreateHandler):

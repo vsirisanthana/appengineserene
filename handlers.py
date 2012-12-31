@@ -4,9 +4,9 @@ from google.appengine.ext import db
 import appenginejson
 from appenginevalidation import clean
 
-from serene.errors import Http4xx
-from serene.parsers import parse
-from serene.utils import flatten_to_dict
+from appengineserene.errors import Http4xx
+from appengineserene.parsers import parse
+from appengineserene.utils import flatten_to_dict
 
 
 class BaseHandler(webapp2.RequestHandler):

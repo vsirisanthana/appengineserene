@@ -1,6 +1,6 @@
 import webapp2
 
-from serene.tests.handlers import (ProjectListOrCreateHandler, StoryListOrCreateHandler,
+from appengineserene.tests.handlers import (ProjectListOrCreateHandler, StoryListOrCreateHandler,
                                    ScrumStoryListOrCreateHandler, ScrumStoryInstanceHandler)
 
 

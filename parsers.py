@@ -2,7 +2,7 @@ import json
 from urlparse import parse_qsl
 from webob.multidict import MultiDict
 
-from serene.errors import ContentTypeNotSupportedError
+from appengineserene.errors import ContentTypeNotSupportedError
 
 
 parsers = {}

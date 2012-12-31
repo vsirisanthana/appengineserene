@@ -7,9 +7,9 @@ from google.appengine.ext import testbed
 import appenginejson
 from appenginetest.utils import setCurrentUser, logoutCurrentUser
 
-from serene.tests.handlers import ProjectListOrCreateHandler
-from serene.tests.models import ProjectDummy, StoryDummy, ScrumStoryDummy
-from serene.tests.urls import app
+from appengineserene.tests.handlers import ProjectListOrCreateHandler
+from appengineserene.tests.models import ProjectDummy, StoryDummy, ScrumStoryDummy
+from appengineserene.tests.urls import app
 
 
 class BaseTestHandler(unittest2.TestCase):
